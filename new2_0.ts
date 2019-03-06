@@ -16,3 +16,15 @@ if (myNullVar2 === undefined) {
 }
 
 
+
+var myControlFlow: string | number;
+
+
+myControlFlow = 'hello im a string';
+
+console.log(typeof myControlFlow);
+
+
+myControlFlow = 4;
+
+console.log(typeof myControlFlow);
