@@ -28,3 +28,19 @@ console.log(typeof myControlFlow);
 myControlFlow = 4;
 
 console.log(typeof myControlFlow);
+
+
+
+var myGroceryBasket: string | string[];
+
+myGroceryBasket = 'orange';
+
+console.log(typeof myGroceryBasket);
+
+
+myGroceryBasket = ['orange', 'apple', 'banana'];
+
+console.log(typeof myGroceryBasket);
+
+
+
