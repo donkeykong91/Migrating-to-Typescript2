@@ -67,3 +67,5 @@ interface Magician {
     lastName: string;
 
 }
+
+type WarriorChoice = Archer | Samurai | Magician;
