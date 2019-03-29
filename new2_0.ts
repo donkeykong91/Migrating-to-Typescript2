@@ -68,4 +68,17 @@ interface Magician {
 
 }
 
+
 type WarriorChoice = Archer | Samurai | Magician;
+
+function selectWarrior(warrior: WarriorChoice) {
+
+    switch (warrior.kind) {
+
+        case 'archer':
+
+            return `Our warrior (${warrior.kind})'s last name is (${warrior.lastName})`;
+
+    }
+
+}
