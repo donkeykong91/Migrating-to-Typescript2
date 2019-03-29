@@ -44,3 +44,26 @@ console.log(typeof myGroceryBasket);
 
 
 
+interface Archer {
+
+    kind: 'archer';
+
+    lastName: string;
+
+}
+
+interface Samurai {
+
+    kind: 'samurai';
+
+    lastName: string;
+
+}
+
+interface Magician {
+
+    kind: 'magician';
+
+    lastName: string;
+
+}
