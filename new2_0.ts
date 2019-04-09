@@ -90,12 +90,28 @@ function selectWarrior(warrior: WarriorChoice) {
 
 }
 
-interface creature {
+interface Creature {
 
     readonly height: number;
 
     readonly width: number;
 
     readonly ocean: string;
+
+}
+
+{let vreeg: Creature = { 
+    
+                            height: 100, 
+        
+                            width: 50, 
+                            
+                            ocean: 'Pacific' 
+                        
+                       }
+
+    
+    
+
 
 }
