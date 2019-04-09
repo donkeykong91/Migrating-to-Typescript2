@@ -89,3 +89,13 @@ function selectWarrior(warrior: WarriorChoice) {
     }
 
 }
+
+interface creature {
+
+    readonly height: number;
+
+    readonly width: number;
+
+    readonly ocean: string;
+
+}
