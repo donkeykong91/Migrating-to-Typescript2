@@ -79,6 +79,13 @@ function selectWarrior(warrior: WarriorChoice) {
 
             return `Our warrior (${warrior.kind})'s last name is (${warrior.lastName})`;
 
+        case 'samurai':
+
+            return `Our warrior (${warrior.kind})'s last name is (${warrior.lastName})`;
+
+        case 'magician':
+
+            return `Our warrior (${warrior.kind})'s last name is (${warrior.lastName})`;
     }
 
 }
