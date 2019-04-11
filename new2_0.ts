@@ -111,7 +111,10 @@ interface Creature {
                        }
 
     
-    
+    console.log(vreeg);
+
+    vreeg.ocean = "Atlantic";
+    console.log(vreeg);
 
 
 }
