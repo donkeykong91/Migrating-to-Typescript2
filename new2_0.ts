@@ -113,8 +113,26 @@ interface Creature {
     
     console.log(vreeg);
 
+
     vreeg.ocean = "Atlantic";
+
     console.log(vreeg);
 
+    
+    class Boat {
 
+        readonly capacity = 30;
+
+        readonly name: string;
+
+
+        constructor() {
+
+            this.name = 'The Adventurer';
+
+        }
+
+    }
+
+    
 }
