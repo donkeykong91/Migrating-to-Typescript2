@@ -6,5 +6,8 @@
             "jquery": ["jquery/dist/jquery.min.js"]
 
         }
-    }
+    },
+    "include": [
+        "src/**/*"
+    ]
 }
