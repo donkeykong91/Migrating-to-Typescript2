@@ -138,6 +138,6 @@ interface Creature {
 
 // shorthand
 
-declare module 'test-module';
+// declare module 'test-module';
 
-import { test } from 'test-module';
+// import { test } from 'test-module';
