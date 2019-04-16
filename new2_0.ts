@@ -135,5 +135,3 @@ interface Creature {
     }
 
 }
-
-import jquery from 'jquery';
