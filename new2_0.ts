@@ -135,3 +135,9 @@ interface Creature {
     }
 
 }
+
+// shorthand
+
+declare module 'test-module';
+
+import { test } from 'test-module';
