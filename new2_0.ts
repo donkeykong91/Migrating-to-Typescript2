@@ -114,9 +114,9 @@ interface Creature {
     console.log(vreeg);
 
 
-    vreeg.ocean = "Atlantic";
+    // vreeg.ocean = "Atlantic";
 
-    console.log(vreeg);
+    // console.log(vreeg);
 
     
     class Boat {
@@ -134,5 +134,5 @@ interface Creature {
 
     }
 
-    
+
 }
