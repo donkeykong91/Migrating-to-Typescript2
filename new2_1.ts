@@ -25,4 +25,24 @@ interface Warrior {
 
     console.log(hunora);
 
+    type Category<T> = {
+
+                           [P in keyof T]?: T[P];
+
+                       };
+
+    type Samurai = Category<Warrior>;
+
+    {let gojin: Samurai = {
+
+                            name: 'Gojin',
+
+                            weapon: 'staff'
+
+                          }
+
+        console.log(gojin);
+
+    }
+
 }
