@@ -57,6 +57,16 @@ interface Warrior {
 
         console.log(vreegKing);
 
+        {let {
+
+                snout,
+
+                ...vreegQueen
+
+             } = vreegKing;
+
+
+        }
 
     }
 
