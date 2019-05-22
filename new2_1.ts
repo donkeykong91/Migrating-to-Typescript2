@@ -45,4 +45,19 @@ interface Warrior {
 
     }
 
+    {let vreegKing = {
+
+                        size: 250,
+
+                        ocean: 'Pacific',
+
+                        snout: 'Big'
+
+                     };
+
+        console.log(vreegKing);
+
+
+    }
+
 }
