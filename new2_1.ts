@@ -70,15 +70,18 @@ interface Warrior {
 
              console.log(vreegQueen);
 
-        }
+             
+             {let monsters = {
 
-        {let monsters = {
+                                ...vreegKing,
 
-                            ...vreegKing
+                                ...vreegQueen
 
-                        };
+                             };
 
-            console.log(monsters);
+                console.log(monsters);
+
+            }
 
         }
 
