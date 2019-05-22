@@ -66,6 +66,10 @@ interface Warrior {
              } = vreegKing;
 
 
+             vreegQueen.ocean = 'Atlantic';
+
+             console.log(vreegQueen);
+
         }
 
     }
