@@ -72,6 +72,16 @@ interface Warrior {
 
         }
 
+        {let monsters = {
+
+                            ...vreegKing
+
+                        };
+
+            console.log(monsters);
+
+        }
+
     }
 
 }
